@@ -1,0 +1,37 @@
+{
+  "name": "labor-management-platform",
+  "version": "1.0.0",
+  "description": "A comprehensive platform for builders, supervisors, workers and admin to manage labor requests and assignments",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "demo": "node start-demo.js",
+    "seed": "node scripts/seedData.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.7.2",
+    "nodemailer": "^6.9.4",
+    "moment": "^2.29.4",
+    "express-validator": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "labor",
+    "management",
+    "construction",
+    "workers",
+    "builders"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
